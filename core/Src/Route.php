@@ -12,7 +12,7 @@ use Src\Traits\SingletonTrait;
 
 class Route
 {
-   //Используем методы трейта
+   //Используем методы трейта 
    use SingletonTrait;
 
    //Свойство для хранения текущего маршрута

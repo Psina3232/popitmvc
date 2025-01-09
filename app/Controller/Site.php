@@ -53,6 +53,7 @@ class Site
                 app()->route->redirect('/login');
             }   
         }
+        
         return new View('site.signup');
     }
 
