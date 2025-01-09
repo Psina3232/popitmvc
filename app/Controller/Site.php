@@ -48,12 +48,12 @@ class Site
                 return new View('site.signup',
                     ['message' => json_encode($validator->errors(), JSON_UNESCAPED_UNICODE)]);
             }
-     
+      
             if (User::create($request->all())) {
                 app()->route->redirect('/login');
             }   
         }
-        
+
         return new View('site.signup');
     }
 
