@@ -12,7 +12,7 @@ class Position extends Model
    public $timestamps = false;
    protected $fillable = [
        'PositionName',
-   ];
+   ]; 
 
    protected $primaryKey = 'PositionID';
 

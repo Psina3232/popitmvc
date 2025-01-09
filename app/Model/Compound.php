@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Compound extends Model 
 {
-   use HasFactory;
+   use HasFactory; 
 
    public $timestamps = false;
    protected $fillable = [

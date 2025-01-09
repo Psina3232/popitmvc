@@ -16,7 +16,7 @@ class User extends Model implements IdentityInterface
        'login',
        'password',
        'role'
-   ];
+   ]; 
 
    protected $primaryKey = 'UserRoleID';
 
