@@ -54,5 +54,5 @@ class Application
    {
        $this->route->start();
    }
-}
+} 
 

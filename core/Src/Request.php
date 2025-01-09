@@ -21,7 +21,7 @@ class Request
    {
        return $this->body + $this->files();
    }
- 
+  
    public function set($field, $value):void
    {
        $this->body[$field] = $value;
