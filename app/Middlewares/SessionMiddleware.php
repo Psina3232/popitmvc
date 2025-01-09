@@ -13,4 +13,4 @@ class SessionMiddleware
             session_start();
         }
     }
-}
+} 
